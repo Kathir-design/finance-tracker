@@ -2,11 +2,59 @@ body {
     font-family: Arial;
     background: #eef2f7;
     margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
     padding: 20px;
 }
 
+h1 {
+    background: #1e3c72;
+    color: white;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    background: #34495e;
+    color: white;
+}
+
+button {
+    padding: 6px 12px;
+    margin-bottom: 20px;
+    background: #1e3c72;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    padding: 6px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 canvas {
-    width: 100% !important;
+    background: white;
+    padding: 10px;
     height: 300px !important;
-    margin-bottom: 40px;
 }
